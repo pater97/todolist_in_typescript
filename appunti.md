@@ -1,0 +1,9 @@
+- lancio tsc --init
+- lancio npm init
+- installo express e body-parser
+- configuro express in app.ts
+- per fare capire a ts che sto usando node eseguo -> npm install --save-dev @types/node
+- per fare capire che sto usando express -> npm install --save-dev @types/express
+- per fare capire che sto usando bodyParser -> npm install --save-dev @types/body-parser
+- nel file tsconfig.json inserisco nella parte modules -> "moduleResolution": "node",
+- modifico il target per utilizzare es6 -> "target": "es6"
